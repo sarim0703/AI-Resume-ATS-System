@@ -1,0 +1,51 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+frontend/.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local data / generated files
+uploads/
+outputs/
+temp/
+tmp/
+
+# ML / model cache
+.cache/
+.huggingface/
+transformers_cache/
+
+# Python package/build files
+*.egg-info/
+dist/
+build/
+
+# Application logs
+backend/logs/
